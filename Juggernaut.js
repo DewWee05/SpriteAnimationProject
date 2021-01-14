@@ -1,7 +1,7 @@
 class Juggernaut {
     constructor(game, x, y, spritesheet) {
         Object.assign(this, {game, x, y, spritesheet});
-        this.spritesheet = ASSET_MANAGER.getAsset("./juggernaut_sprite.png");
+        this.spritesheet = ASSET_MANAGER.getAsset("./sprite/juggernaut_sprite.png");
 
         this.size = 0;
         this.facing = 0;
