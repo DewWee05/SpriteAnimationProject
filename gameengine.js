@@ -42,14 +42,17 @@ class GameEngine {
                 case "ArrowRight":
                 case "KeyD":
                     that.right = true;
+                    console.log("right pressed");
                     break;
                 case "ArrowUp":
                 case "KeyW":
                     that.up = true;
+                    console.log("up pressed");
                     break;
                 case "ArrowDown":
                 case "KeyS":
                     that.down = true;
+                    console.log("down pressed");
                     break;
             }
         }, false);
